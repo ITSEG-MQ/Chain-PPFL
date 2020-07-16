@@ -53,8 +53,8 @@ Table 1. results of 10 epochs training with the learning rate of 0.01
 
 | Model  | Acc. of IID | Acc. of Non-IID|
 | -----  | -----       | ----           |
-| MLP    |  85.66%     | 72.08%         |
-| CNN    |  95.00%     | 78.79%         |
+| MLP    |  83.85%     | 72.08%         |
+| CNN    |  96.27%     | 78.79%         |
 
 Table 2. results of 50 epochs training with the learning rate of 0.01
 
