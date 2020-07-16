@@ -33,7 +33,7 @@ See the arguments in [options.py](utils/options.py).
 For example:
 > python main_fed_dp.py --dataset mnist --num_channels 1 --model cnn --epochs 50 --gpu 0 
 
-Note: Our paper leverges the Laplace mechanism to realise Differential Privacy.
+Note: Our paper leverges the Laplace mechanism to realise ϵ-Differential Privacy.
 
 ## FL based on Chain-PPFL
 
@@ -53,7 +53,7 @@ Table 1. results of 10 epochs training with the learning rate of 0.01
 
 | Model  | Acc. of IID | Acc. of Non-IID|
 | -----  | -----       | ----           |
-| MLP    |  83.85%     | 72.08%         |
+| MLP    |  83.85%     | 74.00%         |
 | CNN    |  96.27%     | 78.79%         |
 
 Table 2. results of 50 epochs training with the learning rate of 0.01
